@@ -1,3 +1,14 @@
 .container {
   width: 100vw;
 }
+
+.main {
+  margin-top: 25px;
+  width: 100%;
+  max-width: var(--max-page-width);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding-left: var(--left-gutter);
+  padding-right: var(--right-gutter);
+}

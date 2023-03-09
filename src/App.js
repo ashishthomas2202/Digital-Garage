@@ -1,9 +1,12 @@
 import Layout from "./components/ui/Layout";
+import ThreeDView from "./components/features/ThreeDView";
 
 function App() {
   return (
     <Layout>
-      <div>Hello World</div>
+      <section>
+        <ThreeDView></ThreeDView>
+      </section>
     </Layout>
   );
 }
