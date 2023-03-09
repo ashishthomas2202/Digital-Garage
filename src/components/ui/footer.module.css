@@ -1,0 +1,20 @@
+.footer {
+  width: 100%;
+  background-color: var(--primary-color);
+  position: absolute;
+  bottom: 0;
+  padding-left: var(--left-gutter);
+  padding-right: var(--right-gutter);
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+.content {
+  max-width: var(--max-page-width);
+  display: flex;
+}
+
+.brand {
+  color: #ffffff;
+  font-family: var(--brand-font-family);
+}

@@ -1,7 +1,11 @@
+import styles from "./footer.module.css";
+
 function Footer() {
   return (
-    <footer>
-      <h2>Footer</h2>
+    <footer className={styles.footer}>
+      <div className={styles.content}>
+        <div className={styles.brand}>Digital Garage</div>
+      </div>
     </footer>
   );
 }

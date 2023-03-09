@@ -1,3 +1,18 @@
+:root {
+  --brand-font-family: "Michroma", sans-serif;
+  --left-gutter: 50px;
+  --right-gutter: 50px;
+
+  --max-page-width: 1500px;
+
+  --primary-color: #1d3557;
+  --secondary-color: #457b9d;
+
+  --color-1: #a8dadc;
+  --color-2: #f1faee;
+  --color-3: #e63946;
+}
+
 html,
 body {
   margin: 0;

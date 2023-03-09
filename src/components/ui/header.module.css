@@ -1,0 +1,42 @@
+.header {
+  padding-left: var(--left-gutter);
+  padding-right: var(--right-gutter);
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.navbar {
+  width: 100%;
+  min-width: 450px;
+  max-width: var(--max-page-width);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.hamburger {
+  height: 20px;
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  cursor: pointer;
+}
+.hamburger div {
+  height: 2px;
+  width: 30px;
+  background-color: black;
+}
+
+.brand {
+  color: var(--color-3);
+  font-family: var(--brand-font-family);
+  cursor: pointer;
+}
+
+.greeting {
+  font-size: 1.2rem;
+  cursor: pointer;
+}
